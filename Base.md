@@ -83,6 +83,18 @@ $git branch
 $git checkout -b feature-A: switc to a new branch 'feature-A' equal $git branch feature-A $git checkout feature-A
 $git checkout -: switched to last one branch
 
+* git merge --no-ff feature-A
+Merging branchs
+------------------------------------------
+$git log --graph: Display branchs by chart view
+
+* git reset: Backtrack vison history
+$git reset --hard fd0cbf0d4a25f74...: HEAD is now an fd0cdf0 Add index
+-------------------------------------------
+$git reflog: Display current respository operation history
+$git commit --amend: Modify the submitted information
+$git rebase -i: Compressed history     $git rebase -i HEAD~2
+
 
 
 
