@@ -95,6 +95,30 @@ $git reflog: Display current respository operation history
 $git commit --amend: Modify the submitted information
 $git rebase -i: Compressed history     $git rebase -i HEAD~2
 
+-----------------------------------------
+Pushed to a remote repository
+* git remote add
+$git remote add origin git@github.com:github-book/git-tutorial.git    -->set origin: Add a remote repository
+$git push -u origin master: pushed to master branch
+$git checkout -b feature-D: switched to a new branch 'feature-D'
+$git push -u origin feature-D: Pushed to other branch
+-------------------------------------------
+Obtained from a remote repository
+$git clone git@github.com:github-book/git-tutorial.git  -->master
+$git branch -a: Along with local repository and remote repository branch information
+$git checkout -b feature-D origin/feature-D
+$git diff
+$git push
+* git pull: get the last remote repository branch
+$git pull origin feature-D
+
+--------------------------------------------
+REFERENCES
+* Pro Git
+* LearnGitBranching
+* tryGit
+
+
 
 
 
