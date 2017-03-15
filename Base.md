@@ -1,5 +1,5 @@
-# Install 
-msysGit(windows), Built-in(Mac), Built-in(Linux)
+# Install
+### msysGit(windows), Built-in(Mac), Built-in(Linux)
 ------------------
 # Initial settings
 set name and email
